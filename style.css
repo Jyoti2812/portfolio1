@@ -1,0 +1,322 @@
+.demo
+{
+   
+     background-image:url("C:/BackgroundImage/portfolio.png"); 
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:right;
+    font-family:"verdana",sans-serif;
+    background-size:65% 50%;
+    height:88vh;
+    
+}
+
+nav
+ {
+   background-color:rgb(32,42,68);
+    width:25%;
+   height:95vh;
+  
+   display:flex;
+ 
+   flex-direction:column;
+   padding:20px 30px;
+
+ }
+.menu
+   a{
+      font-size:1.5em;
+      letter-spacing:1px;
+      padding:10px 20px;
+      color:white;
+     
+      text-decoration:none;
+      display:block;
+      margin:20px auto;
+    }
+.menu
+    {
+       padding-top:100px;
+    }
+ .menu a:hover
+ {
+      cursor:pointer;
+      color:orange;
+      font-size:1.6em;
+      text-decoration:underline;
+ }
+ .text
+ {
+     position:absolute;
+     right:45%;
+     bottom:60%;
+     center:80px;
+  }
+ .text h1
+ {
+     height:50%;
+     left:50%;
+ }
+ .image
+ {
+     position:absolute;
+     right:20%;
+     bottom:0;
+     width:30%;
+     height:60%;
+    
+      
+  }
+ .image img
+ {
+     height:140%;
+     left:40%;
+   
+     position:absolute;
+     bottom:0;
+ }
+ .back
+ {
+     background-color:pink;
+     width:100%;
+     height:75vh;
+     background-image:url("C:/BackgroundImage/pic.png");
+ }
+ .ground 
+ {
+     padding:13%;
+     font-size:30px;
+     color:black;
+ }
+ .ground h1
+ {
+     font-size:70px;
+     margin-top:20px;
+ }
+ .ground h1 span
+ {
+    color:rgb(5,79,228);
+ }
+
+ .ground h1 span:hover
+ {
+     color:red;
+ }
+   .container
+{
+ display:flex;
+ justify-content:center;
+ border:50px;
+ background-color:rgb(106,46,228);            
+}
+.card
+{
+  background:rgb(173,216,230);
+  width:400px;
+  height:400px;
+  margin:28px;
+  border-radius:20px;
+ 
+} 
+
+
+
+h2
+{
+ color:rgb(255,153,0);
+ font-size:30px;
+ font-family:sans-serif;
+ text-align:center;
+ 
+}
+p
+{
+ color:rgb(129,14,14);
+ font-size:22px;
+ font-family:cursive;
+ 
+}
+p:hover
+{
+  
+  color:blue;
+}
+
+button
+{
+  background-color:rgb(179,228,46);
+  font-size:150%;
+  font-align:center;
+}
+.card a
+{
+  color:black;
+}
+.open
+{
+  font-size:300%;
+  text-align:center;
+  justify-content:center;
+  padding:100px 0px;
+  color:white;
+  text-decoration:none;
+}
+.open:hover
+{
+ color:red;
+}
+   .container1
+{
+ display:flex;
+ justify-content:center;
+ border:50px;
+ background-color:rgb(106,46,128);
+ list-style:none;            
+}
+.skills
+{
+  width:500px;
+  margin:10px auto;
+  color:white;
+}
+.skills li
+{
+ margin:20px 0;
+}
+.bar
+{
+  background:#353b48;
+  display:block;
+  height:8px;
+  border:1px solid rgba(0,0,0,0.3);
+  border-radius:3px;
+  overflow:hidden;
+  box-shadow:0 0 10px #2187e7b3;
+
+} 
+.bar span
+{
+ height:8px;
+ float:left;
+ background:#2187e7;
+}
+.html
+{
+ width:90%;
+ animation: html 2s;
+} 
+.css
+{
+ width:70%;
+ animation:css 2s;
+}
+.js
+{
+ width:60%;
+  animation:js 2s;
+}
+.php
+{
+ width:50%;
+ animation:php 2s;
+}
+@keyframes html{
+0%
+{
+    width:0%;
+}
+100%
+{
+    width:90%;
+}} 
+@keyframes css{
+0%
+{
+    width:0%;
+}
+100%
+{
+    width:70%;
+}} 
+ @keyframes js{
+0%
+{
+    width:0%;
+}
+100%
+{
+    width:60%;
+}}    
+ @keyframes php{
+0%
+{
+    width:0%;
+}
+100%
+{
+    width:50%;
+}}
+.skills h1
+{
+   font-size:50px;
+   color:white;
+}
+.skills h1:hover
+{
+   color:black;
+ 
+} 
+footer
+{
+   border:1px;
+   width:97.8%;
+   padding:1rem;
+   background-color:rgb(166,104,158);
+   height:50%;
+}
+.container3
+{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+ 
+}
+.item-list
+{
+  border:3px ;
+  width:25%;
+}
+.item-title
+{
+  font-size:2rem;
+  font-weight:700;
+  color:rgb(112,188,178);
+}
+.item-title:hover
+{
+  cursor:pointer;
+  transform:scale(1.3);
+}
+.item-list ul
+{
+ list-style:none;
+ min-height:300px;
+ color:white;
+ font-size:1.5em;
+}
+
+.item a
+{
+  
+  font-size:1.2rem;
+  color:white;
+} 
+.item
+{
+  margin-bottom:5px;
+}
+.info
+{
+  color:white;
+  font-size:1.2rem;
+}                     
